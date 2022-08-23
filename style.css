@@ -87,7 +87,7 @@ body {
   right: 0px;
   bottom: 0px;
   padding: 15px;
-  grid-template-rows: auto auto auto auto;
+
 }
 .socials a {
   text-decoration: none;
@@ -211,8 +211,13 @@ h3 {
 }
 .logo {
   width: 300px;
+  top: 250px;
 }
 .nav a {
   font-size: 1.25rem;
 }
+.questions {
+  font-size: 1.25rem;
+}
+
 }
