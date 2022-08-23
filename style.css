@@ -210,6 +210,9 @@ h3 {
   grid-template-rows: auto auto auto auto ;
 }
 .logo {
-  width: 250px;
+  width: 300px;
+}
+.nav a {
+  font-size: 1.25rem;
 }
 }
