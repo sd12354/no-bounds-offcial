@@ -209,4 +209,7 @@ h3 {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto ;
 }
+.logo {
+  width: 250px;
+}
 }
