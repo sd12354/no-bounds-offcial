@@ -217,10 +217,13 @@ h3 {
 @media screen and (max-width: 800px) {
 .items {
   grid-template-columns: auto auto;
-  grid-template-rows: auto  ;
+  grid-template-rows: auto;
+}
+.items img {
+  height: 150px;
 }
 .socials {
-  font-size:  2rem;
+  font-size:  1.75rem;
 }
 .grid {
   grid-template-columns: auto;
@@ -285,3 +288,4 @@ h3 {
   width: 275px;;
   padding: 100px;;
 }
+
