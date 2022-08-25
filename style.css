@@ -216,17 +216,17 @@ h3 {
 
 @media screen and (max-width: 800px) {
 .items {
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
 }
 .items img {
-  height: 170px;
+  height: 200px;
 }
 .items p {
-  font-size: .8rem;
+  font-size: 1rem;
 }
 .socials {
-  font-size:  1rem;
+  font-size:  .5rem;
 }
 .grid {
   grid-template-columns: auto;
@@ -234,7 +234,7 @@ h3 {
 }
 .logo {
   width: 300px;
-  top: 250px;
+  top: 240px;
 }
 .nav a {
   font-size: 1.25rem;
