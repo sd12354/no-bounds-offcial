@@ -217,7 +217,7 @@ h3 {
 @media screen and (max-width: 800px) {
 .items {
   grid-template-columns: auto;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto auto;
 }
 .items img {
   height: 200px;
