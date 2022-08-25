@@ -220,7 +220,10 @@ h3 {
   grid-template-rows: auto;
 }
 .items img {
-  height: 150px;
+  height: 170px;
+}
+.items p {
+  font-size: .8rem;
 }
 .socials {
   font-size:  1rem;
@@ -239,7 +242,9 @@ h3 {
 .second {
   display: none;
 }
-
+#ourGoal {
+  font-size: 1rem;
+}
 }
 
 #release {
