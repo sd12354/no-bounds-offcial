@@ -58,3 +58,28 @@ var x = setInterval(function() {
 function websiteVisits(response) {
   document.querySelector("#visits").textContent = response.value;
 }
+
+function tiktok() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/nb-clothing.com/tiktok");
+  xhr.responseType = "json";
+  xhr.send();
+}
+function insta() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/nb-clothing.com/insta");
+  xhr.responseType = "json";
+  xhr.send();
+}
+function discord() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/nb-clothing.com/discord");
+  xhr.responseType = "json";
+  xhr.send();
+}
+function twitter() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/nb-clothing.com/twitter");
+  xhr.responseType = "json";
+  xhr.send();
+}
